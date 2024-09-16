@@ -1,4 +1,4 @@
-﻿using FizzBuzzWebApi.Factories;
+using FizzBuzzWebApi.Factories;
 using static FizzBuzzWebApi.Models.FizzBuzzLogicModel;
 namespace FizzBuzzWebApi.Services
 {
@@ -16,12 +16,13 @@ namespace FizzBuzzWebApi.Services
         // Calculating the logic
        public IEnumerable<FizzBuzzLogicResponseModel> CaluculateValue(IEnumerable<string> values)
         {
-            var response = new FizzBuzzLogicResponseModel
-            {
-                Logresult = new List<string>()
-            };
+          
             foreach (var item in values)
             {
+                var response = new FizzBuzzLogicResponseModel
+                {
+                    Logresult = new List<string>()
+                };
                 if (int.TryParse(item, out int number))
                 {
                     if (number == 3 || number == 5 || number == 15)
@@ -47,6 +48,7 @@ namespace FizzBuzzWebApi.Services
                     }
                     else
                     {
+                        response.Finalresult = number.ToString();
                         response.Logresult.Add($"Divided {number} by 3");
                         response.Logresult.Add($"Divided {number} by 5");
                     }
