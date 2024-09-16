@@ -26,7 +26,7 @@ This web application processes an array of values and applies the FizzBuzz rules
 
 ## Steps to Run
 
-1. We need to do the code clone from git repo name : https://github.com/Prashanthkumar1995/FizzBuzz/tree/main.
+1. We need to do the code clone from git repo name : https://github.com/Prashanthkumar1995/FizzBuzz.
 2. Create a branch with give unique name. And also clone code from the main branch to created our branch.
 3. we can test with Swagger or Postman.
 4. With Swagger : After Cloning code and createed the branch. Now Run the application Our Url will be ex:  
