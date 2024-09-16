@@ -25,27 +25,26 @@ namespace FizzBuzzWebApi.Services
                 };
                 if (int.TryParse(item, out int number))
                 {
-                    if (number == 3 || number == 5 || number == 15)
+
+                    if (number % 3 == 0 && number % 5 == 0)
                     {
-                         if (number % 15 == 0)
-                        {
-                            var res = _FizzBuzzFactoryService.result(number);
-                            response.Finalresult = res.FinalResults(number);
-                        }
-                        else if (number % 3 == 0)
-                        {
-                            var res = _FizzBuzzFactoryService.result(number);
-                            response.Finalresult = res.FinalResults(number);
-                        }
-
-
-                        else if (number % 5 == 0)
-                        {
-                            var res = _FizzBuzzFactoryService.result(number);
-                            response.Finalresult = res.FinalResults(number);
-                        }
-                        
+                        var res = _FizzBuzzFactoryService.result(number);
+                        response.Finalresult = res.FinalResults(number);
                     }
+                    else if (number % 3 == 0)
+                    {
+                        var res = _FizzBuzzFactoryService.result(number);
+                        response.Finalresult = res.FinalResults(number);
+                    }
+
+
+                    else if (number % 5 == 0)
+                    {
+                        var res = _FizzBuzzFactoryService.result(number);
+                        response.Finalresult = res.FinalResults(number);
+                    }
+
+
                     else
                     {
                         response.Finalresult = number.ToString();
