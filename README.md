@@ -57,3 +57,53 @@ This web application processes an array of values and applies the FizzBuzz rules
 
     "finalresult": "Fizz",
     "logresult": []
+7. If we want to run all the provided valuesas per documentation
+   give like below in **request body**
+   {
+   "values": [
+    "1",
+    "3",
+    "5",
+    "A",
+   "15",
+    "23",
+    ""
+    ]
+    }
+   **Response will like below** : 
+   [
+  {
+    "finalresult": "1",
+    "logresult": [
+      "Divided 1 by 3",
+      "Divided 1 by 5"
+    ]
+  },
+  {
+    "finalresult": "Fizz",
+    "logresult": []
+  },
+  {
+    "finalresult": "Buzz",
+    "logresult": []
+  },
+  {
+    "finalresult": "Invalid Item ",
+    "logresult": []
+  },
+  {
+    "finalresult": "FizzBuzz",
+    "logresult": []
+  },
+  {
+    "finalresult": "23",
+    "logresult": [
+      "Divided 23 by 3",
+      "Divided 23 by 5"
+    ]
+  },
+  {
+    "finalresult": "Invalid Item ",
+    "logresult": []
+  }
+]
