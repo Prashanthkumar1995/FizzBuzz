@@ -1,4 +1,4 @@
-﻿using FizzBuzzWebApi.Factories;
+using FizzBuzzWebApi.Factories;
 using FizzBuzzWebApi.Services;
 using Microsoft.Extensions.Logging;
 using System;
@@ -39,9 +39,9 @@ namespace FizzBuzzWebApi.Tests
             Assert.Contains("Buzz", resultModel.Finalresult);
         }
         [Fact]
-        public void CaluculateValue_WhenDivisibleBy15()
+        public void CaluculateValue_WhenDivisibleByBoath3and5()
         {
-            var input = new[] { "15" };
+            var input = new[] { "15","30", "45" };
             var result = _FizzBuzzLogicservice.CaluculateValue(input);
             var resultModel = result.FirstOrDefault();
             Assert.NotNull(resultModel);
