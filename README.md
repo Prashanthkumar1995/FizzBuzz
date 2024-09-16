@@ -17,11 +17,11 @@ This web application processes an array of values and applies the FizzBuzz rules
 
 ## Steps to Run
 
-1. git clone https://github.com/Prashanthkumar1995/FizzBuzz/tree/main
+1. git clone https://github.com/Prashanthkumar1995/FizzBuzz/tree/main.
 2. Create a branch with give unique name. And colone code from the main branch to created branch.
 3. we can test with Swagger or Postman.
-4. With Swagger : After Cloning and createed the branch Run the application Our Url will be ex:  https://localhost:7124/swagger/index.html
-5. Provide the values in request body, i am providing 1 and click on Execute
+4. With Swagger : After Cloning and createed the branch Run the application Our Url will be ex:  https://localhost:7124/swagger/index.html.
+5. Provide the values in request body, i am providing 1 and click on Execute.
 Ex: 
 {
   "values": ["1"]
@@ -32,7 +32,7 @@ Ex:
     "logresult": 
       "Divided 1 by 3",
       "Divided 1 by 5"
-6. Provide the values in request body, i am providing 3 
+6. Provide the values in request body, i am providing 3.
 Ex: 
 {
   "values": ["1"]
