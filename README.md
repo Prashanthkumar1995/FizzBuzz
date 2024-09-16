@@ -11,13 +11,13 @@ This web application processes an array of values and applies the FizzBuzz rules
 5. If a value is not divisible by 3 or 5, it returns a message indicating "each division that was performed".
 
 
-## Acheievd in Project
-1. Applied Solid principle(Single Responsibility Principle).
-2. Implemented  Dependency injection 
-3. Implemented factory design pattern.
-4. Created Testcases using xUnit.
-5. Maintained seperation of code using interfaces for easy to maintain, easy to understand
-   ,testability, extensibilty.
+## Achieved in Project
+1. Applied SOLID principles (Single Responsibility Principle).
+2. Implemented Dependency Injection. 
+3. Implemented Factory Design Pattern.
+4. Created test cases using xUnit.
+5. Maintained separation of code using interfaces for ease of maintenance, understanding, 
+   testability, and extensibility
 
 ## Tesing
 
