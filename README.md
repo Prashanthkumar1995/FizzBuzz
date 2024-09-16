@@ -32,6 +32,7 @@ Ex:
     "logresult": 
       "Divided 1 by 3",
       "Divided 1 by 5".
+
 6. Provide the values in request body, i am providing 3.
 Ex: 
 {
