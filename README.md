@@ -58,6 +58,7 @@ This web application processes an array of values and applies the FizzBuzz rules
     "finalresult": "Fizz",
     "logresult": []
 7. If we want to run all the provided valuesas per documentation
+
    give like below in **request body**
    {
    "values": [
@@ -70,6 +71,7 @@ This web application processes an array of values and applies the FizzBuzz rules
     ""
     ]
     }
+
    **Response will like below** : 
    [
   {
@@ -107,3 +109,4 @@ This web application processes an array of values and applies the FizzBuzz rules
     "logresult": []
   }
 ]
+
